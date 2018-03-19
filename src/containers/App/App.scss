@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.appContent {
+  position: relative;
+  flex: 1
+}
+
+.notifs {
+  margin: 15px 0;
+}
+
+:global(.form-control-feedback) {
+  text-align: inherit;
+}
+
